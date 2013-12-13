@@ -19,5 +19,7 @@ package uk.co.cynicode.constructorsanddefaults;
  * @author Cynical
  */
 public class ConstructorClass {
-
+	
+	public ConstructorClass() {};
+	
 }
