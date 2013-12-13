@@ -19,5 +19,11 @@ package uk.co.cynicode.constructorsanddefaults;
  * @author Cynical
  */
 public class MainClass {
-
+	
+	public MainClass() {}
+	
+	public static void main( String[] args ) {
+		
+	}
+	
 }
