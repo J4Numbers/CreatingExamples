@@ -8,5 +8,6 @@
   <name>CreatingExamples</name>
   <modules>
     <module>GetSetAndFormat</module>
+    <module>OperationsOnDataTypes</module>
   </modules>
 </project>
