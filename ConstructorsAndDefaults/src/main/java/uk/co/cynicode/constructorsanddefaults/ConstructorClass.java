@@ -24,17 +24,40 @@ package uk.co.cynicode.constructorsanddefaults;
  * 
  * i.e. on the 'new ConstructorClass()' instruction.
  * 
- * @author Cynical
+ * @author Matthew David Ball
  */
 public class ConstructorClass {
 	
+	/**
+	 * Once again, as in the other class, we're going to have
+	 * an example of a non-defined variable, this one, which 
+	 * shall default to the default of the datatype. In this 
+	 * case, that means that constructorTest is going to be a
+	 * null object.
+	 */
 	private String constructorTest;
 	
+	/**
+	 * And on the other side of things, we have the other item
+	 * which /has/ been instantiated to a string. In this case
+	 * the string is "Hello World!" and will stay that way for
+	 * now.
+	 */
 	private String constructorTest2 = "Hello World!";
 	
+	/**
+	 * Once again, this is the thing that will be ran when the
+	 * class itself is instantiated. It is going to print out 
+	 * all the data variables that we have in this class in an
+	 * order of some sort or another. Probably the non-defined
+	 * followed by the defined.
+	 */
 	public ConstructorClass() {
 		
+		//Non-defined variable being printed here...
 		System.out.println( constructorTest  );
+		
+		//Defined variable being printed here...
 		System.out.println( constructorTest2 );
 		
 	};
