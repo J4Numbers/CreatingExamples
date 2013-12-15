@@ -6,11 +6,11 @@ Programming is a hard concept to explain. In a programming course, you get taugh
 Topics To Be Covered
 --------------------
 
-- Get, Set and Format
+- Get, Set and Format (Added)
 - Operations on Data Types
 - Privacy, Static and Final
 - Inheritence and Interfacing
 - Try, Catch and Exceptions
-- Constructors and Defaults
+- Constructors and Defaults (Added)
 - Overriding and Overloading
 - Abstraction
